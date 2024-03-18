@@ -1,0 +1,53 @@
+.social-container {
+  display: flex;
+}
+.social {
+  padding: 1.5rem 1rem 1rem 1rem;
+  margin: auto;
+  cursor: pointer;
+  transition: 400ms ease;
+}
+.social svg {
+  margin: auto;
+  margin-top: 400px;
+}
+a.svg {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.whatsapp:hover {
+  background-color: #1BD741;
+}
+.tiktok:hover {
+  background-color: #FD3E3E;  
+  filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+}
+.instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  background: -webkit-linear-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.youtube:hover {
+  background-color: #FF0000;
+}
+.twitter:hover {
+  background-color: #1D9BF0;
+}
+.discord:hover {
+  background-color: #5865F2;
+}
+.linkedin:hover {
+  background-color: #0274B3;
+}
+.github:hover {
+  background-color: #000000;
+}
