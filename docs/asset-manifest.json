@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.47b33181.css",
-    "main.js": "./static/js/main.722b6a1a.js",
+    "main.css": "./static/css/main.f8ee89e0.css",
+    "main.js": "./static/js/main.445f1b62.js",
     "static/js/787.2717768c.chunk.js": "./static/js/787.2717768c.chunk.js",
     "static/media/CrimsonPro-VariableFont_wght.ttf": "./static/media/CrimsonPro-VariableFont_wght.3c720a31e5e4d5eb419d.ttf",
     "static/media/github.svg": "./static/media/github.58d9644aa03d1c7fb594d45ac715864e.svg",
@@ -9,12 +9,12 @@
     "static/media/discord.svg": "./static/media/discord.678786350dd6deda59e24c9eba0f759a.svg",
     "static/media/linkedin.svg": "./static/media/linkedin.3d198a84b749f7eb087ce974e59ae30f.svg",
     "index.html": "./index.html",
-    "main.47b33181.css.map": "./static/css/main.47b33181.css.map",
-    "main.722b6a1a.js.map": "./static/js/main.722b6a1a.js.map",
+    "main.f8ee89e0.css.map": "./static/css/main.f8ee89e0.css.map",
+    "main.445f1b62.js.map": "./static/js/main.445f1b62.js.map",
     "787.2717768c.chunk.js.map": "./static/js/787.2717768c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47b33181.css",
-    "static/js/main.722b6a1a.js"
+    "static/css/main.f8ee89e0.css",
+    "static/js/main.445f1b62.js"
   ]
 }

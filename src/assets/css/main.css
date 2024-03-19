@@ -6,6 +6,7 @@
 .app {
   text-align: center;
   font-family: "Crimson Pro";
+  background-color: #1d293f;
 }
 
 .name {
@@ -19,8 +20,7 @@
   color: #d3d3d3;
 }
 
-.app-header {
-  background-color: #1d293f;
+.app-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,11 +31,13 @@
 }
 
 @media (max-width: 805px) {
-  .name {
-    font-size: 2rem;
+  .app-container {
+    transform: translateY(-6%);
   }
-  
+  .name {
+    font-size: 2.2rem;
+  }
   .professional-title {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
