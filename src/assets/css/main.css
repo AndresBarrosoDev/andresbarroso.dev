@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Custom Crimson Pro";
+  font-family: "Crimson Pro";
   src: url("../fonts/Crimson_Pro/CrimsonPro-VariableFont_wght.ttf");
 }
 
 .app {
   text-align: center;
-  font-family: "Custom Crimson Pro";
+  font-family: "Crimson Pro";
 }
 
 .name {
@@ -28,4 +28,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+@media (max-width: 805px) {
+  .name {
+    font-size: 2rem;
+  }
+  
+  .professional-title {
+    font-size: 0.8rem;
+  }
 }
