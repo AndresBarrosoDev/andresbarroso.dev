@@ -19,11 +19,11 @@ function App() {
     <div className="app">
       <main className="app-container">
         <h1 className="name">Andrés Barroso</h1>
-        <h3 className="professional-title ">Software Engineer</h3>
+        <h3 className="professional-title">Software Developer</h3>
         <div className="social-container">
           <a
             className="social linkedin svg"
-            href="https://www.linkedin.com/in/andresbarrosodev/"
+            href
             onClick={(event) =>
               openLink(
                 event,
@@ -40,7 +40,7 @@ function App() {
           </a>
           <a
             className="social github svg"
-            href="https://github.com/AndresBarrosoDev"
+            href
             onClick={(event) =>
               openLink(event, "https://github.com/AndresBarrosoDev")
             }
@@ -53,7 +53,7 @@ function App() {
             ></object>
           </a>
           <a
-            href="https://wa.me/56957107029"
+            href
             className="social whatsapp svg"
             onClick={(event) =>
               openLink(event, "https://wa.me/56957107029")
@@ -70,7 +70,7 @@ function App() {
             className="social discord svg"
             href
             onClick={(event) =>
-              openLink(event, "https://your-discord-link")
+              openLink(event, "https://discord.com/users/Redbone#1531")
             }
           >
             <object
