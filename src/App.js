@@ -2,10 +2,12 @@ import React from "react";
 import "./App.css";
 import "./assets/css/main.css";
 import "./assets/css/socials.css";
-import discord from "./assets/img/discord.svg";
 import github from "./assets/img/github.svg";
 import linkedin from "./assets/img/linkedin.svg";
 import whatsapp from "./assets/img/whatsapp.svg";
+import spotify from "./assets/img/spotify.svg";
+import telegram from "./assets/img/telegram.svg";
+
 
 function App() {
   const openLink = (event, url) => {
@@ -35,7 +37,7 @@ function App() {
               data={linkedin}
               width="50"
               height="33"
-              aria-label="Link to Andrés Barroso's linkedin"
+              aria-label="Link to Andrés Barroso's linkedin account"
             ></object>
           </a>
           <a
@@ -49,7 +51,21 @@ function App() {
               data={github}
               width="50"
               height="33"
-              aria-label="Link to Andrés Barroso's github"
+              aria-label="Link to Andrés Barroso's github account"
+            ></object>
+          </a>
+          <a
+            className="social telegram svg"
+            href
+            onClick={(event) =>
+              openLink(event, "https://t.me/andresbarrosodev")
+            }
+          >
+            <object
+              data={telegram}
+              width="50"
+              height="33"
+              aria-label="Link to Andrés Barroso's telegram account"
             ></object>
           </a>
           <a
@@ -63,21 +79,25 @@ function App() {
               data={whatsapp}
               width="50"
               height="33"
-              aria-label="Link to Andrés Barroso's whatsapp"
+              aria-label="Link to Andrés Barroso's whatsapp account"
             ></object>
           </a>
+        
           <a
-            className="social discord svg"
+            className="social spotify svg"
             href
             onClick={(event) =>
-              openLink(event, "https://discord.com/users/Redbone#1531")
+              openLink(
+                event,
+                "https://open.spotify.com/user/guardianofabyss?si=3NlTp1mtRk62-_AGOCaZyg"
+              )
             }
           >
             <object
-              data={discord}
+              data={spotify}
               width="50"
               height="33"
-              aria-label="Link to Andrés Barroso's discord"
+              aria-label="Link to Andrés Barroso's spotify account"
             ></object>
           </a>
         </div>
