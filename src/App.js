@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div className="app animate-home-component">
       <main className="app-container">
         <h1 className="name">Andrés Barroso</h1>
         <h3 className="professional-title">Software Developer</h3>
